@@ -16,3 +16,11 @@ hooks:
       timeout: 300
       runas: root
 
+phases:
+  build:
+    commands:
+      - ls
+
+artifacts:
+  files:
+    - public/*
